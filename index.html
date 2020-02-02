@@ -2,17 +2,21 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="javascript" href="content.js">
 </head>
+
+<script type="text/javascript">
+    function setContent() {
+//        document.getElementById("result").innerText = getTime();
+        return getTime();
+    }
+
+</script>
+
 <body>
-
-<p>
-<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1580561592518&di=6f0160efc469a6e4083e5be4f5f291ff&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F-Po3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F03087bf40ad162d971b5ccc416dfa9ec8b13cd8b.jpg" width="100%" height="100%" />
-
-<p>
-    晚上好,靳宁宁
-</p>
-
-</p>
-
+<div class="example">
+    <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1580561592518&di=6f0160efc469a6e4083e5be4f5f291ff&imgtype=0&src=http%3A%2F%2Fgss0.baidu.com%2F-Po3dSag_xI4khGko9WTAnF6hhy%2Fzhidao%2Fpic%2Fitem%2F03087bf40ad162d971b5ccc416dfa9ec8b13cd8b.jpg">
+    <span id="result"></span>
+</div>
 </body>
 </html>
